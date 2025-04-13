@@ -344,3 +344,61 @@ footer {
 .skills-list a:hover {
     color: #ffcc00; /* Change color on hover (optional) */
 }
+
+.references-section {
+    background-color: #111;
+    padding: 60px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.references-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.reference-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reference-card {
+    background: linear-gradient(to right, #1f1f1f, #2a2a2a);
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.2);
+    border-left: 5px solid #007bff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+}
+
+.reference-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0, 123, 255, 0.4);
+}
+
+.reference-card h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.reference-card p {
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.reference-card a {
+    color: #66bfff;
+    text-decoration: none;
+}
+
+.reference-card a:hover {
+    text-decoration: underline;
+}
+
